@@ -1,0 +1,15 @@
+@model Pacotes
+@{
+    ViewData["Title"] = "Exclusão de pacote";
+}
+<h2>Exclusão de pacote</h2>
+<p>@ViewBag.msg</p>
+<form asp-action="Excluir" method="POST">
+    <p>
+        <label asp-for="id">Escolha o id do pacote a excluir:</label>
+        <input type="number" asp-for="id">
+    </p>
+    <p>
+        <input type="submit" value="Excluir">
+    </p>
+</form>

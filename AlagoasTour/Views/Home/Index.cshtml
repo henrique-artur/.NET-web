@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h2>Dashboard - Admin</h2>
+<table>
+    <thead>
+        <th>Ação</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a asp-controller="Entrar" asp-action="Cadastro">Cadastrar pessoas</a></td>
+        </tr>
+        <tr>
+            <td><a asp-controller="Pacote" asp-action="Cadastro">Cadastrar Pacotes</a></td>
+        </tr>
+        <tr>
+            <td><a asp-controller="Pacote" asp-action="Listar">Listagem de Pacotes</a></td>
+        </tr>
+        <tr>
+            <td><a asp-controller="Pacote" asp-action="Excluir">Excluir Pacote</a></td>
+        </tr>
+    </tbody>
+</table>

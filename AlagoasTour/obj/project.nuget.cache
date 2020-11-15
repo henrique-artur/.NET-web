@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2P8994koj9RBtE/UNuHfeWqJ7tkTZtNVB5pv8KxeTzNJDqRPjI7nl/1CzWWlbCWmUaCtFPmOSNo55cDTaClLsQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\artur-win10\\Documents\\cursoSenac\\AlagoasTour\\AlagoasTour.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\artur-win10\\.nuget\\packages\\mysqlconnector\\1.0.1\\mysqlconnector.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

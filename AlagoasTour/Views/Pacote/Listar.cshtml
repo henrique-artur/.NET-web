@@ -1,0 +1,27 @@
+@model IEnumerable<Pacotes>
+@using System;
+@{
+    ViewData["Title"] = "Catálogo de pacotes";
+}
+<h2>Catálogo</h2>
+<table width="450" border="1px">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Valor</th>
+            <th>Descricao</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Pacotes p in Model)
+        {
+            <tr>
+                <td width="10%" heidth="45%">#@p.id</td>
+                <td width="10%" heidth="45%">@p.nomePacote</td>
+                <td width="10%" heidth="45%">R$@string.Format("{0:N}", p.valor)</td>
+                <td width="75%" heidth="75%">@p.descricao</td>
+            </tr>
+        }
+    </tbody>
+</table>

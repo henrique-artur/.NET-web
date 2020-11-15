@@ -1,0 +1,22 @@
+@model Pacotes
+@{
+    ViewData["Title"] = "Cadastro de Pacotes";
+}
+<h2>Cadastro de Pacotes</h2>
+<form asp-action="Confirma" method="POST">
+    <p>
+        <label asp-for="nomePacote">Nome:</label>
+        <input asp-for="nomePacote">
+    </p>
+    <p>
+        <label asp-for="valor">Valor:</label>
+        <input asp-for="valor">
+    </p>
+    <p>
+        <label asp-for="descricao">Descrição:</label>
+        <input asp-for="descricao">
+    </p>
+    <p>
+        <input type="submit" value="Cadastrar">
+    </p>
+</form>
